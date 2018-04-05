@@ -6,10 +6,21 @@ output: html_document
 ---
 #Professional Projects
 
+
 ##Nanostring data analysis
 
-##Developmental variation in mouse embryonic teeth
 
+**Approaches used:** exploratory analyses, PCA, logistic regression
+**Technologies used:** R, NanoStringNorm 
+[https://github.com/luke-hayden/nstringn17](Github)
+[https://github.com/luke-hayden/]
+
+
+***
+
+
+##Developmental variation in mouse embryonic teeth
+***
 ##Parhyale gene Expression summary tool
 
 ##Parhyale gene polymorphism interactive web app
@@ -17,3 +28,14 @@ output: html_document
 #Personal Projects
 
 ##
+
+
+
+##Example
+**Approaches used:** 
+**Technologies used:** R, NanoStringNorm 
+[https://github.com/luke-hayden/](Github)
+
+
+
+***
