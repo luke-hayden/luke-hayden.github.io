@@ -7,35 +7,98 @@ output: html_document
 #Professional Projects
 
 
-##Nanostring data analysis
+###Nanostring data analysis
+Detailed analysis of the expression of 200 genes in many biological samples, with the intention of identfying ways of using this gene expression data to measure biological age. Multiple normalisation algorithms compared to optimise signal:noise ratio. Exploratory data analysis to identify possible confounding factors. Dimensionality reduction via PCA. Building logistic regression models to separate age states. 
 
+**Approaches used:** normalisation, exploratory analyses, PCA, logistic regression, visualisation
 
-**Approaches used:** exploratory analyses, PCA, logistic regression
 **Technologies used:** R, NanoStringNorm 
-[https://github.com/luke-hayden/nstringn17](Github)
-[https://github.com/luke-hayden/]
 
+[Github](https://github.com/luke-hayden/nstringn17)
 
 ***
 
+###Developmental variation in mouse embryonic teeth
+Examination of developmental variation present in developing mouse teeth using expression of Shh as a marker. Examining how developmental changes 
 
-##Developmental variation in mouse embryonic teeth
+
+**Approaches used:** time series, Mantel test, logistic regression
+
+
+**Technologies used:** R
+
+
+[Github](https://github.com/luke-hayden/DevVarShh)
+
 ***
-##Parhyale gene Expression summary tool
 
-##Parhyale gene polymorphism interactive web app
+###Parhyale gene Expression summary tool
+
+
+**Approaches used:** 
+
+
+**Technologies used:** R, BLAST
+
+
+[Github](https://github.com/luke-hayden/expsummary)
+
+***
+
+###Parhyale gene polymorphism interactive web app
+
+
+**Approaches used:** 
+
+
+**Technologies used:** R, Shiny
+
+
+[Shiny app](https://lukehayden.shinyapps.io/polymap3/)
+[Github](https://github.com/luke-hayden/polmap)
+
+***
 
 #Personal Projects
 
-##
+###Do people prefer innovative or generic recipes?
+
+
+**Approaches used:** Text mining, clustering via kmodes, regression
+
+
+**Technologies used:** 
+
+[Kaggle kernel](https://www.kaggle.com/lukehayden/do-people-prefer-innovative-or-generic-recipes)
+[Github](https://github.com/luke-hayden/recipes-epi)
+
+***
+
+###Visualising Irish political history 
+
+Web scraping information on elected representatives from Wikipedia in order to 
+
+**Approaches used:** web scraping, 
+
+
+**Technologies used:** R
+
+***
+[Visualisation]()
+[Github](https://github.com/luke-hayden/dail)
 
 
 
-##Example
-**Approaches used:** 
-**Technologies used:** R, NanoStringNorm 
-[https://github.com/luke-hayden/](Github)
+###How does dying affect your musical career?
 
 
+
+**Approaches used:** web scraping, visualisation
+
+
+**Technologies used:** R
+
+[Visualisation]()
+[Github](https://github.com/luke-hayden/nyc-phil)
 
 ***
