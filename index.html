@@ -120,7 +120,6 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Data Science Portfolio</h1>
 <h4 class="author"><em>Luke Hayden</em></h4>
-<h4 class="date"><em>April 5, 2018</em></h4>
 
 </div>
 
@@ -137,20 +136,23 @@ $(document).ready(function () {
 </div>
 <div id="developmental-variation-in-mouse-embryonic-teeth" class="section level3">
 <h3>Developmental variation in mouse embryonic teeth</h3>
-<p><strong>Approaches used:</strong> time series, Mantel test</p>
+<p>Examination of developmental variation present in developing mouse teeth using expression of the <em>Shh</em> gene as a marker. In order to allow the comparison of the level of variation in organ state over developmental time, I developed a novel method that would allow this to be measured. This novel statistical method involves the comparison of intrapair developmental state differences for all pairs of samples that are close in developmental time. Also includes methods to compare the performance of the results of different Bayesian models of developmental age and produces a range of graphics to show these results.</p>
+<p><strong>Approaches used:</strong> time series, Mantel test, logistic regression, visualisation</p>
 <p><strong>Technologies used:</strong> R</p>
 <p><a href="https://github.com/luke-hayden/DevVarShh">Github</a></p>
 <hr />
 </div>
 <div id="parhyale-gene-expression-summary-tool" class="section level3">
-<h3>Parhyale gene Expression summary tool</h3>
-<p><strong>Approaches used:</strong></p>
-<p><strong>Technologies used:</strong> R, BLAST</p>
+<h3>Parhyale gene expression summary tool</h3>
+<p>Taking a large biological data set (gene expression for ~30,000) genes, the aim of this project was to allow team members to easily access relevant data for a set of interest. This script takes a set if sequences if interest, searches for similar sequences using the BLAST algorithm, fetches expression data for these genes, then performs statistical tests comparing the levels of expression of these genes under various conditions. The output is a data table summarising this information and a range of graphs of the expression levels of these genes under various conditions.</p>
+<p><strong>Approaches used:</strong> visualisation,</p>
+<p><strong>Technologies used:</strong> R, BLAST, DESeq2</p>
 <p><a href="https://github.com/luke-hayden/expsummary">Github</a></p>
 <hr />
 </div>
 <div id="parhyale-gene-polymorphism-interactive-web-app" class="section level3">
 <h3>Parhyale gene polymorphism interactive web app</h3>
+<p>This app, created using the Shiny platform for R, was designed to allow members of the <em>Parhyale</em> research community to easily access data in a user-friednly manner. When supplied with a gene ID, the app will fetch the sequence of gene in question, identify the regions of genetic variation, and provide a graphical view of the genetic variation present along the gene’s sequence.</p>
 <p><strong>Approaches used:</strong></p>
 <p><strong>Technologies used:</strong> R, Shiny</p>
 <p><a href="https://lukehayden.shinyapps.io/polymap3/">Shiny app</a> <a href="https://github.com/luke-hayden/polmap">Github</a></p>
@@ -159,26 +161,28 @@ $(document).ready(function () {
 </div>
 <div id="personal-projects" class="section level1">
 <h1>Personal Projects</h1>
-<div id="do-people-prefer-innovative-or-generic-recipes" class="section level3">
-<h3>Do people prefer innovative or generic recipes?</h3>
+<div id="do-people-prefer-innovative-or-generic-recipes-in-progress" class="section level3">
+<h3>Do people prefer innovative or generic recipes? (in progress)</h3>
+<p>This</p>
 <p><strong>Approaches used:</strong> Text mining, clustering via kmodes, regression</p>
-<p><strong>Technologies used:</strong></p>
-<p><a href>Kaggle kernel</a> <a href="https://github.com/luke-hayden/recipes-epi">Github</a></p>
+<p><strong>Technologies used:</strong> R</p>
+<p><a href="https://www.kaggle.com/lukehayden/do-people-prefer-innovative-or-generic-recipes">Kaggle kernel</a> <a href="https://github.com/luke-hayden/recipes-epi">Github</a></p>
 <hr />
 </div>
 <div id="visualising-irish-political-history" class="section level3">
 <h3>Visualising Irish political history</h3>
-<p>Web scraping information on elected representatives from Wikipedia in order to</p>
-<p><strong>Approaches used:</strong> web scraping,</p>
-<p><strong>Technologies used:</strong> R</p>
-<hr />
-<p><a href="https://github.com/luke-hayden/dail">Github</a></p>
-</div>
-<div id="how-does-dying-affect-your-musical-career" class="section level3">
-<h3>How does dying affect your musical career?</h3>
+<p>An exercise in semi-automated web-scraping, this script reads in dozens of relevant Wikipedia articles and extracts electoral data from HTML tables. This information is then processed to produce summary graphics mapping Irish political history and measuring changing electoral turnover.</p>
 <p><strong>Approaches used:</strong> web scraping, visualisation</p>
 <p><strong>Technologies used:</strong> R</p>
-<p><a href="https://github.com/luke-hayden/nyc-phil">Github</a></p>
+<hr />
+<p><a href>Visualisation</a> <a href="https://github.com/luke-hayden/dail">Github</a></p>
+</div>
+<div id="how-does-dying-affect-your-musical-career-in-progress" class="section level3">
+<h3>How does dying affect your musical career? (in progress)</h3>
+<p>The starting point for this analysis was a dataset from Kaggle.com, consisting of</p>
+<p><strong>Approaches used:</strong> web scraping, visualisation</p>
+<p><strong>Technologies used:</strong> R</p>
+<p><a href>Visualisation</a> <a href="https://github.com/luke-hayden/nyc-phil">Github</a></p>
 <hr />
 </div>
 </div>

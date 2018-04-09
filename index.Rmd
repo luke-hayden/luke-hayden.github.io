@@ -1,11 +1,9 @@
 ---
 title: "Data Science Portfolio"
 author: "Luke Hayden"
-date: "April 5, 2018"
 output: html_document
 ---
 #Professional Projects
-
 
 ###Nanostring data analysis
 Detailed analysis of the expression of 200 genes in many biological samples, with the intention of identfying ways of using this gene expression data to measure biological age. Multiple normalisation algorithms compared to optimise signal:noise ratio. Exploratory data analysis to identify possible confounding factors. Dimensionality reduction via PCA. Building logistic regression models to separate age states. 
@@ -19,34 +17,32 @@ Detailed analysis of the expression of 200 genes in many biological samples, wit
 ***
 
 ###Developmental variation in mouse embryonic teeth
-Examination of developmental variation present in developing mouse teeth using expression of Shh as a marker. Examining how developmental changes 
+Examination of developmental variation present in developing mouse teeth using expression of the *Shh* gene as a marker. In order to allow the comparison of the level of variation in organ state over developmental time, I developed a novel method that would allow this to be measured. This novel statistical method involves the comparison of intrapair developmental state differences for all pairs of samples that are close in developmental time. Also includes methods to compare the performance of the results of different Bayesian models of developmental age and produces a range of graphics to show these results. 
 
-
-**Approaches used:** time series, Mantel test, logistic regression
-
+**Approaches used:** time series, Mantel test, logistic regression, visualisation
 
 **Technologies used:** R
-
 
 [Github](https://github.com/luke-hayden/DevVarShh)
 
 ***
 
-###Parhyale gene Expression summary tool
+###*Parhyale* gene expression summary tool
+
+Taking a large biological data set (gene expression for ~30,000) genes, the aim of this project was to allow team members to easily access relevant data for a set of interest. This script takes a set if sequences if interest, searches for similar sequences using the BLAST algorithm, fetches expression data for these genes, then performs statistical tests comparing the levels of expression of these genes under various conditions. The output is a data table summarising this information and a range of graphs of the expression levels of these genes under various conditions.
 
 
-**Approaches used:** 
+**Approaches used:** visualisation,
 
-
-**Technologies used:** R, BLAST
-
+**Technologies used:** R, BLAST, DESeq2
 
 [Github](https://github.com/luke-hayden/expsummary)
 
 ***
 
-###Parhyale gene polymorphism interactive web app
+###*Parhyale* gene polymorphism interactive web app
 
+This app, created using the Shiny platform for R, was designed to allow members of the *Parhyale* research community to easily access data in a user-friednly manner. When supplied with a gene ID, the app will fetch the sequence of gene in question, identify the regions of genetic variation, and provide a graphical view of the genetic variation present along the gene's sequence. 
 
 **Approaches used:** 
 
@@ -61,13 +57,14 @@ Examination of developmental variation present in developing mouse teeth using e
 
 #Personal Projects
 
-###Do people prefer innovative or generic recipes?
+###Do people prefer innovative or generic recipes? (in progress)
 
+This analysis was performed on a dataset of >20,000 recipes from Epicurious.com, taken from Kaggle.com. After performing text mining on the ingredient lists of these recipes, each recipe was placed into a cluster with similar recipes via kmodes clustering. This yielded six clusters of similar recipes, grouped around six archetypal recipes. Finally, regression approaches were used to analyse whether those recipes that are least similar to an archetype (the most innovative) are rated higher or lower than other recipes. 
 
 **Approaches used:** Text mining, clustering via kmodes, regression
 
 
-**Technologies used:** 
+**Technologies used:** R
 
 [Kaggle kernel](https://www.kaggle.com/lukehayden/do-people-prefer-innovative-or-generic-recipes)
 [Github](https://github.com/luke-hayden/recipes-epi)
@@ -76,25 +73,20 @@ Examination of developmental variation present in developing mouse teeth using e
 
 ###Visualising Irish political history 
 
-Web scraping information on elected representatives from Wikipedia in order to 
+An exercise in semi-automated web-scraping, this script reads in dozens of relevant Wikipedia articles and extracts electoral data from HTML tables. This information is then processed to produce summary graphics mapping Irish political history and measuring changing electoral turnover. 
 
-**Approaches used:** web scraping, 
-
+**Approaches used:** web scraping, visualisation
 
 **Technologies used:** R
 
 ***
-[Visualisation]()
+[Visualisation](https://github.com/luke-hayden/dail/blob/master/maindail.pdf)
 [Github](https://github.com/luke-hayden/dail)
 
-
-
-###How does dying affect your musical career?
-
-
+###How does dying affect your musical career? (in progress)
+The starting point for this analysis was a dataset from Kaggle.com, consisting of the performance history of the New York Philharmonic Orchestra. This dataset was combined with details on compser births and deaths, scraped from Wikipedia, in order to examine the connection between the death of a composer and the popularity of their work. 
 
 **Approaches used:** web scraping, visualisation
-
 
 **Technologies used:** R
 
